@@ -1,37 +1,50 @@
-# Aim
-To learn about for loop and while loop.
 
-# Software Used
-VS Code
+## Aim
+To understand and apply `for` loops and `while` loops in C++.
 
-# Problem Statement
-1.) Write a c++ code for printing numbers using for loop.
+## Software Used
+- VS Code
 
-2.) Write a c++ code for printing numbers using while loop.
+## Problem Statements
 
-3.) Write a c++ code for making a triangular star pattern.
+1. **Print Numbers Using a `for` Loop**
+   - Write a C++ program to print numbers using a `for` loop.
 
-4.) Write a c++ code for making a square shaped star pattern.
+2. **Print Numbers Using a `while` Loop**
+   - Write a C++ program to print numbers using a `while` loop.
 
-5.) Write a c++ code for making a pyramid of star.
+3. **Triangular Star Pattern**
+   - Write a C++ program to generate a triangular star pattern.
 
-6.) Write a c++ code to get sum of the numbers printed.
+4. **Square-Shaped Star Pattern**
+   - Write a C++ program to create a square-shaped star pattern.
 
-7.) Write a c++ code to make a Floyd triangle.
+5. **Pyramid of Stars**
+   - Write a C++ program to generate a pyramid of stars.
 
-8.) Write a c++ code to make Floyd triangle of alphabets.
+6. **Sum of Printed Numbers**
+   - Write a C++ program to calculate the sum of the numbers that are printed.
 
-9.) Write a c++ code for password validation till correct password is entered.
+7. **Floyd's Triangle**
+   - Write a C++ program to create Floyd's triangle.
 
-#  Theory
-In C++, for loop is an entry-controlled loop that is used to execute a block of code repeatedly for the specified range of values. Basically, for loop allows you to repeat a set of instructions for a specific number of iterations.
+8. **Floyd's Triangle of Alphabets**
+   - Write a C++ program to generate Floyd's triangle using alphabets.
 
-While Loop in C++ is used in situations where we do not know the exact number of iterations of the loop beforehand. The loop execution is terminated on the basis of the test condition. Loops in C++ come into use when we need to repeatedly execute a block of statements.
+9. **Password Validation Loop**
+   - Write a C++ program to repeatedly prompt for a password until the correct one is entered.
 
-Floyd's triangle is a triangular array of natural numbers used in computer science education. It is named after Robert Floyd. It is defined by filling the rows of the triangle with consecutive numbers, starting with a 1 in the top left corner
+## Theory
+
+- **`for` Loop**: An entry-controlled loop used to execute a block of code a specific number of times based on a defined range of values.
+- **`while` Loop**: A loop that executes a block of code as long as a specified condition is true. It is used when the number of iterations is not known beforehand.
+- **Floyd's Triangle**: A triangular array of natural numbers used in computer science education, filled row by row with consecutive numbers starting from 1 in the top left corner.
+
+
 
 # Program Codes
 ```javascript
+//Mukesh Rothe  //23070123089  //EXP6
  //Printing numbers using for loop.
 #include<iostream>
 using namespace std;
@@ -47,6 +60,7 @@ int main()
     return 0;
 }
 
+//Mukesh Rothe  //23070123089  //EXP6
 //Printing numbers using while loop.
 #include<iostream>
 using namespace std;
@@ -63,6 +77,7 @@ int main ()
 
 }
 
+//Mukesh Rothe  //23070123089  //EXP6
 //Triangular star pattern
 #include<iostream>
 using namespace std;
@@ -81,6 +96,7 @@ int main ()
     return 0;
 }
 
+//Mukesh Rothe  //23070123089  //EXP6
 //Square shaped star pattern.
 #include<iostream>
 using namespace std;
@@ -98,6 +114,7 @@ int main ()
     return 0;
 }
 
+//Mukesh Rothe  //23070123089  //EXP6
 //Pyramid of star
 #include<iostream>
 using namespace std;
@@ -120,6 +137,7 @@ int main ()
     return 0;
 }
 
+//Mukesh Rothe  //23070123089  //EXP6
 //Sum of the numbers printed
 #include<iostream>
 using namespace std;
@@ -139,6 +157,7 @@ int main()
 
 }
 
+//Mukesh Rothe  //23070123089  //EXP6
 //Floyd triangle
 #include<iostream>
 using namespace std;
@@ -159,6 +178,7 @@ int main()
     return 0;
 }
 
+//Mukesh Rothe  //23070123089  //EXP6
 //Floyd triangle of alphabets
 #include<iostream>
 using namespace std;
@@ -180,6 +200,7 @@ int main()
     return 0;
 }
 
+//Mukesh Rothe  //23070123089  //EXP6
 //Password validation
 #include<iostream>
 #include<string>
@@ -192,7 +213,7 @@ int main ()
  cin >> pass;
  if (pass=="SIT")
  {
-    cout << "Sucess !!";
+    cout << "Success!";
  }
  else
  {
@@ -205,34 +226,43 @@ return 0;
 ```
 
 # Output:
-1.) 6a_abcd
-![image](https://github.com/user-attachments/assets/3a987d89-386e-4847-b493-96bfac1d6741)
+FloydABCD-
 
-2.)
-![image](https://github.com/user-attachments/assets/0897b1ab-cc64-4021-a391-d610c5a94763)
+![Screenshot 2024-08-22 215136](https://github.com/user-attachments/assets/bb3a732a-f1e8-485a-bee5-4db62f5d7fb3)
 
-3.)
-![image](https://github.com/user-attachments/assets/f0929216-fc9c-4f09-ab12-af7efb281b5c)
+Counting-
 
-4.)
-![image](https://github.com/user-attachments/assets/4e32966a-4f82-4f94-8e74-eb30c8ab8ff3)
+![Screenshot 2024-08-22 215235](https://github.com/user-attachments/assets/662f0bea-3ce9-4586-987c-c5b3582611be)
 
-5.)
-![image](https://github.com/user-attachments/assets/d7c9f3bc-f480-483c-8cd9-5a554a9c976f)
+Floyd-
 
-6.)
-![image](https://github.com/user-attachments/assets/c74e9ad5-ce3c-460a-9b01-718d80d3e66f)
+![Screenshot 2024-08-22 215330](https://github.com/user-attachments/assets/84abb8ae-dd48-4575-b21b-1b442203ad1b)
 
-7.)
-![image](https://github.com/user-attachments/assets/2cd22afb-b7f9-4ea8-86ee-37beba930f9e)
+NumberPrint-
 
-8.)
-![image](https://github.com/user-attachments/assets/b7507ff8-6e56-4b17-9199-e0df22062bfe)
+![Screenshot 2024-08-22 215457](https://github.com/user-attachments/assets/b5fc8ac6-c6ba-4f52-9c99-c832ccaa4cc4)
 
-9.)
-![image](https://github.com/user-attachments/assets/17db255a-ad5e-4086-86ba-bd7794a89408)
+Password-
+
+![Screenshot 2024-08-22 215841](https://github.com/user-attachments/assets/7628c616-38b3-44a5-a46a-2be26a00115f)
+
+Pyramid-
+
+![Screenshot 2024-08-22 215943](https://github.com/user-attachments/assets/df9ab387-2aea-4c57-a239-1e24bfdbf64d)
+
+Star_1-
+
+![Screenshot 2024-08-22 220056](https://github.com/user-attachments/assets/828011aa-22bb-493f-a800-43a9a93f9fe3)
+
+Star_2-
+
+![Screenshot 2024-08-22 220142](https://github.com/user-attachments/assets/f480f6ec-22f4-4908-a0b1-bca2b003b992)
+
+While-
+
+![Screenshot 2024-08-22 220314](https://github.com/user-attachments/assets/e75b1573-213d-46ad-8e6b-e3f0c9644007)
 
 
+## Conclusion
 
-# Conclusion
-We learnt to use for loop, while loop and nested for loop.
+- We learned to use `for` loops, `while` loops, and nested loops in C++.
