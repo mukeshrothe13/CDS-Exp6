@@ -1,3 +1,4 @@
+//Mukesh Rothe  //23070123089  //EXP6
 #include<iostream>
 #include<string>
 using namespace std;
@@ -9,7 +10,7 @@ int main ()
  cin >> pass;
  if (pass=="SIT")
  {
-    cout << "Sucess !!";
+    cout << "Success!";
  }
  else
  {
@@ -18,6 +19,5 @@ int main ()
 } 
 while (pass != "SIT");
 return 0;
-
 
 }
