@@ -1,3 +1,4 @@
+//Mukesh Rothe  //23070123089  //EXP6
 #include<iostream>
 using namespace std;
 int main()
@@ -8,8 +9,7 @@ int main()
     for (int i = 1; i <= num; i++)
     {
         sum = sum + i;
-        
-
+    
     }
     cout << "Sum is: "<<sum;
     return 0;
